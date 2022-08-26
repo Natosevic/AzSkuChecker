@@ -2,11 +2,11 @@
 
 Easily check whether a VM SKU is available in a given region, and in what zones.
 
-###Parameters:
+### Parameters:
 * Location - region name
 * SKU - VM SKU name
 
-###Output:
+### Output:
 Name - Value pairs where
 * Name is the name of the matching VM SKU
 * Value is either list of zones in which the VM SKU is available, or N/A if it's not available in the given region
